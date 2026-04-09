@@ -1,13 +1,13 @@
 <template>
   <div class="login">
     <van-nav-bar
-  title="会员登陆"
+  title="会员登录"
   left-arrow
   @click-left="$router.go(-1)"
 />
 <div class="container">
     <div class="title">
-      <h3>手机号登陆</h3>
+      <h3>手机号登录</h3>
       <p>未注册手机号登录后将自动注册</p>
     </div>
     <div class="form">
