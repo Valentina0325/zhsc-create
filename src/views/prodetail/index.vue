@@ -335,13 +335,13 @@ export default {
       line-height: 36px;
       width: 120px;
       border-radius: 18px;
-      background-color: #FFA500 !important;
+      background-color: #91ca50 !important;
       text-align: center;
       color: #fff;
       font-size: 14px;
     }
     .btn-buy {
-      background-color: var(--primary-color) !important;
+      background-color: #45d188 !important;
     }
   }
 }
