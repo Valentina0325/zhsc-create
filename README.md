@@ -1,10 +1,10 @@
-# 智慧商城（Vue2 移动端商城）
+# “轻享购”移动端电商平台
 
 基于 Vue2 + Vant UI 的移动端电商 Demo，支持商品浏览、购物车、订单结算、用户登录等功能。
 
 ## 线上地址
 
-👉 [点击预览](https://69c3a72ac4f810221bd5d410--luxury-stroopwafel-7fe4ff.netlify.app/#/home)
+👉 [点击预览](https://zhsc-create.pages.dev)
 
 ## 技术栈
 
