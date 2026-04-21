@@ -81,7 +81,7 @@ export default {
     justify-content: space-between;
     margin-bottom: 20px;
     .status {
-      color: #fa2209;
+      color: var(--accent-color) !important;
     }
   }
 
@@ -126,6 +126,9 @@ export default {
       padding: 0 15px;
       border-radius: 5px;
       margin: 10px 0;
+    }
+    span:active {
+      color: var(--primary-color) !important;
     }
   }
 }

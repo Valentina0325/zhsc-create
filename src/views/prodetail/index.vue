@@ -72,7 +72,7 @@
       </div>
       <div class="icon-cart">
         <span v-if="cartTotal>0" class="num">{{cartTotal}}</span>
-        <van-icon name="shopping-cart-o" @click="$router.push('/cart')"/>
+        <van-icon name="shopping-cart-o" @click="goCart" />
         <span>购物车</span>
       </div>
       <div class="btn-add" @click="addFn">加入购物车</div>
@@ -145,6 +145,13 @@ export default {
   methods: {
     onChange (index) {
       this.current = index
+    },
+    goCart () {
+      if (!this.$store.getters.token) {
+        this.$router.push('/login')
+      } else {
+        this.$router.push('/cart')
+      }
     },
     async getDetail () {
       const { data: { detail } } = await getProdetail(this.goodsId)
@@ -230,7 +237,7 @@ export default {
     display: flex;
     justify-content: space-between;
     .now {
-      color: #fa2209;
+      color: var(--accent-color) !important;
       font-size: 20px;
     }
     .oldprice {
@@ -264,7 +271,7 @@ export default {
       }
       .van-icon {
         margin-right: 4px;
-        color: #fa2209;
+        color: var(--primary-color) !important;
       }
     }
   }
@@ -328,13 +335,13 @@ export default {
       line-height: 36px;
       width: 120px;
       border-radius: 18px;
-      background-color: #ffa900;
+      background-color: #FFA500 !important;
       text-align: center;
       color: #fff;
       font-size: 14px;
     }
     .btn-buy {
-      background-color: #fe5630;
+      background-color: var(--primary-color) !important;
     }
   }
 }
@@ -380,7 +387,7 @@ export default {
     border-radius: 20px;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 148, 2);
+    background-color: var(--primary-color) !important;
   }
   .btn.now {
     background-color: #fe5630;

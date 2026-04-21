@@ -178,7 +178,7 @@ export default {
         .price {
           display: flex;
           align-items: flex-end;
-          color: #fa2209;
+          color: var(--accent-color) !important;
           font-size: 12px;
           span {
             font-size: 16px;
@@ -248,7 +248,7 @@ export default {
       height: 36px;
       line-height: 36px;
       text-align: center;
-      background-color: #fa2f21;
+      background-color: var(--primary-color) !important;
       color: #fff;
       border-radius: 18px;
       &.disabled {
@@ -276,7 +276,7 @@ export default {
     height: 32px;
     line-height: 32px;
     text-align: center;
-    background-color: #fa2c20;
+    background-color: var(--primary-color) !important;
     border-radius: 16px;
     color: #fff;
     display: block;

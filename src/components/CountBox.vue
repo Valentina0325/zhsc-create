@@ -49,7 +49,8 @@ export default {
     height: 30px;
     outline: none;
     border: none;
-    background-color: #efefef;
+    background-color: #f0f0f0;
+    color: #333;
   }
   .inp {
     width: 40px;

@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <!-- 导航条 -->
-    <van-nav-bar title="智慧商城" fixed />
+    <van-nav-bar title="轻享购" fixed />
 
     <!-- 搜索框 -->
     <van-search
@@ -79,7 +79,7 @@ export default {
 // 导航条样式定制
 .van-nav-bar {
   z-index: 999;
-  background-color: #c21401;
+  background-color: var(--primary-color) !important;
   ::v-deep .van-nav-bar__title {
     color: #fff;
   }
@@ -91,6 +91,7 @@ export default {
   width: 100%;
   top: 46px;
   z-index: 999;
+  background-color: #fff !important;
 }
 
 // 分类导航部分

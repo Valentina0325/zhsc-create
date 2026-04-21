@@ -62,6 +62,7 @@ export default {
     padding: 0 20px;
     border-radius: 0 5px 5px 0;
     margin-right: 10px;
+    background-color: var(--primary-color) !important;
   }
   ::v-deep .van-icon-arrow-left {
     color: #333;

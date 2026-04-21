@@ -252,7 +252,7 @@ export default {
   font-size: 14px;
   border-bottom: 1px solid #efefef;
   .money {
-    color: #fa2209;
+    color: var(--accent-color) !important;
   }
 }
 
@@ -263,7 +263,7 @@ export default {
   display: flex;
   justify-content: space-between;
   .red {
-    color: #fa2209;
+    color: var(--accent-color) !important;
   }
 }
 .pay-detail {
@@ -321,6 +321,7 @@ export default {
   .tipsbtn {
     width: 121px;
     background: linear-gradient(90deg,#f9211c,#ff6335);
+    background-color: var(--primary-color) !important;
     color: #fff;
     text-align: center;
     line-height: 46px;

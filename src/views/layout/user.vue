@@ -131,6 +131,7 @@ export default {
         message: '您确定要退出吗'
       }).then(() => {
         this.$store.dispatch('user/logout')
+        this.$router.replace('/home')
       }).catch(() => {
 
       })
@@ -150,6 +151,7 @@ export default {
   height: 130px;
   background: url("http://cba.itlike.com/public/mweb/static/background/user-header2.png");
   background-size: cover;
+  background-color: var(--primary-color) !important;
   display: flex;
   align-items: center;
   .head-img {
@@ -181,7 +183,7 @@ export default {
     font-size: 14px;
     .van-icon {
       font-weight: bold;
-      color: #ffb632;
+      color: var(--primary-color) !important;
     }
   }
 }

@@ -75,7 +75,7 @@ export default {
         color: #444444;
         font-size: 12px;
         &.active {
-          color: #fb442f;
+          color: var(--primary-color) !important;
           background-color: #fff;
         }
       }

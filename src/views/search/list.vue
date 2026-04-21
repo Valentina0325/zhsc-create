@@ -80,6 +80,9 @@ export default {
       flex: 1;
       font-size: 16px;
     }
+    .sort-item:active {
+  color: var(--primary-color) !important;
+      }
   }
 }
 

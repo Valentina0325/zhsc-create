@@ -146,7 +146,7 @@ export default {
       height: 31px;
       border: none;
       font-size: 13px;
-      color: #cea26a;
+      color: var(--primary-color) !important;
       background-color: transparent;
       padding-right: 9px;
     }
@@ -157,6 +157,7 @@ export default {
     height: 42px;
     margin-top: 39px;
     background: linear-gradient(90deg,#ecb53c,#ff9211);
+    background-color: var(--primary-color) !important;
     color: #fff;
     border-radius: 39px;
     box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);

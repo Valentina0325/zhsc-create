@@ -61,7 +61,7 @@ export default {
       color: #999;
       font-size: 16px;
       .new {
-        color: #f03c3c;
+        color: var(--accent-color) !important;
         margin-right: 10px;
       }
       .old {
